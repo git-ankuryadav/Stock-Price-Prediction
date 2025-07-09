@@ -46,7 +46,7 @@ To run the notebooks, ensure the following packages are installed:
 
 ```bash
 pip install numpy pandas matplotlib scikit-learn statsmodels yfinance arch tensorflow
-
+```
 
 ---
 
