@@ -5,7 +5,7 @@ This repository contains a comparative analysis of classical and deep learning m
 ---
 
 ## 📁 Repository Structure
-
+```
 project-root/
 │
 ├── final_ARMA.ipynb # Classical ARMA model implementation
@@ -20,7 +20,7 @@ project-root/
 ├── dataFiles/ # Input datasets (CSV format)
 │
 └── README.md
-
+```
 
 ---
 
