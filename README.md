@@ -46,3 +46,29 @@ To run the notebooks, ensure the following packages are installed:
 
 ```bash
 pip install numpy pandas matplotlib scikit-learn statsmodels yfinance arch tensorflow
+
+
+---
+
+## 📊 Evaluation Metrics
+
+Models are evaluated using the following metrics:
+
+- **RMSE** (Root Mean Squared Error)  
+- **MAE** (Mean Absolute Error)  
+- **R² Score** (Coefficient of Determination)
+
+Each notebook includes both **in-sample** and **out-of-sample** performance evaluation using these metrics to ensure fair comparison.
+
+---
+
+## 📂 Data
+
+The dataset used in this project includes historical stock prices (e.g., AAPL) downloaded from **Yahoo Finance**.  
+Please ensure your CSV files are placed in the `dataFiles/` directory for proper loading by the notebooks.
+
+---
+
+## 📚 References
+
+The `References/` folder includes supporting literature, academic papers, and documentation used to support the development of the models and evaluation strategies in this project.
