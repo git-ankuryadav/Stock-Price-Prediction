@@ -5,13 +5,17 @@ This repository contains a comparative analysis of classical and deep learning m
 ---
 
 ## 📁 Repository Structure
+
 ```
 project-root/
 │
-├── final_ARMA.ipynb # Classical ARMA model implementation
-├── final_ARMA-GARCH.ipynb # ARMA model on GARCH-standardized returns
-├── final_LSTM.ipynb # LSTM-based deep learning forecasting
-├── final_RNN.ipynb # Basic RNN-based forecasting
+├── final-ARMA.ipynb          # Classical ARMA model implementation
+├── final-ARMA+GARCH.ipynb    # ARMA model on GARCH-standardized returns
+├── final-LSTM.ipynb          # LSTM-based deep learning forecasting
+├── final-RNN.ipynb           # Basic RNN-based forecasting
+├── eda&pred.ipynb            # Exploratory analysis of code
+├── explore.ipynb             # Exploratory analysis of code
+├── ts.ipynb                  # Implementation of Prophet Model
 │
 ├── References/ # Contains research papers and citations
 │
@@ -54,8 +58,8 @@ pip install numpy pandas matplotlib scikit-learn statsmodels yfinance arch tenso
 
 Models are evaluated using the following metrics:
 
-- **RMSE** (Root Mean Squared Error)  
-- **MAE** (Mean Absolute Error)  
+- **RMSE** (Root Mean Squared Error)
+- **MAE** (Mean Absolute Error)
 - **R² Score** (Coefficient of Determination)
 
 Each notebook includes both **in-sample** and **out-of-sample** performance evaluation using these metrics to ensure fair comparison.
