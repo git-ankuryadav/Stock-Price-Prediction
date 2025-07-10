@@ -68,7 +68,7 @@ Each notebook includes both **in-sample** and **out-of-sample** performance eval
 
 ## 📂 Data
 
-The dataset used in this project includes historical stock prices (e.g., AAPL) downloaded from **Yahoo Finance**.  
+The dataset used in this project includes historical stock prices (i.e. IBM and Hindustan Uniliver dataset over 28 years) downloaded from **Yahoo Finance**.  
 Please ensure your CSV files are placed in the `dataFiles/` directory for proper loading by the notebooks.
 
 ---
